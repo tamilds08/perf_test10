@@ -1,4 +1,4 @@
-      <testcase classname="ReleaseIqXmlReporter.constructor" name="should default path to an empty string" time="0.006">
+      <classname="ReleaseIqXmlReporter.constructor" name="should default path to an empty string" time="0.006">
          <failure message="test failure">Assertion failed</failure>
       </testcase>
       <testcase classname="ReleaseIqXmlReporter.constructor" name="should default consolidate to true" time="0">
