@@ -23,5 +23,5 @@ jobs:
       - name: Pull jenkins action image from ECR
         run: |
           aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 641518622681.dkr.ecr.us-west-2.amazonaws.com
-          docker pull 641518622681.dkr.ecr.us-west-2.amazonaws.com/cbactions-ext-jenkins-actions:$BUILD_NUMBER
-          docker run -e PARAMETER='{"key": "value"}' 641518622681.dkr.ecr.us-west-2.amazonaws.com/cbactions-ext-jenkins-actions:$BUILD_NUMBER 
+          docker pull 641518622681.dkr.ecr.us-west-2.amazonaws.com/cbactions-ext-jenkins-actions:latest
+          docker run -e PARAMETER='{"key": "value"}' 641518622681.dkr.ecr.us-west-2.amazonaws.com/cbactions-ext-jenkins-actions:latest 
