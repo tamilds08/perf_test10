@@ -10,3 +10,4 @@
       <testcase classname="ReleaseIqXmlReporter.constructor" name="should default useDotNotation to true" time="0" />
    </testsuite>
 </testsuites>
+
